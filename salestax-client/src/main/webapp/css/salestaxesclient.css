@@ -1,0 +1,17 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	margin-top: 30px;
+	margin-left: 100px;
+	margin-right: 30px;
+}
+ul
+{
+    list-style-type: none;
+}
+
+select
+{
+	margin-top: 10px;
+	width: 250px;
+}

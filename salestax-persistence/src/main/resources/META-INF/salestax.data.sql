@@ -1,0 +1,15 @@
+INSERT INTO `ImportTaxes` (`import_tax_value`, `description`) VALUES (0, 'Not imported goods');
+INSERT INTO `ImportTaxes` (`import_tax_value`, `description`) VALUES (5, 'Normal import tax');
+INSERT INTO `Taxes` (`tax_value`, `description`) VALUES (0, 'Tax for books, food and medical products');
+INSERT INTO `Taxes` (`tax_value`, `description`) VALUES (10, 'Normal tax for goods');
+INSERT INTO `ProductTypes` (`tax`, `description`) VALUES (1, 'Books, food and medical products');
+INSERT INTO `ProductTypes` (`tax`, `description`) VALUES (2, 'Other products');
+INSERT INTO `Products` (`product_type`, `import_tax`, `description`, `price`) VALUES (1, 1, 'book', 12.49);
+INSERT INTO `Products` (`product_type`, `import_tax`, `description`, `price`) VALUES (2, 1, 'music CD', 14.99);
+INSERT INTO `Products` (`product_type`, `import_tax`, `description`, `price`) VALUES (1, 1, 'chocolate bar', 0.85);
+INSERT INTO `Products` (`product_type`, `import_tax`, `description`, `price`) VALUES (1, 2, 'imported box of chocolates', 10.00);
+INSERT INTO `Products` (`product_type`, `import_tax`, `description`, `price`) VALUES (2, 2, 'imported bottle of perfume', 47.50);
+INSERT INTO `Products` (`product_type`, `import_tax`, `description`, `price`) VALUES (2, 2, 'imported bottle of other perfume', 27.99);
+INSERT INTO `Products` (`product_type`, `import_tax`, `description`, `price`) VALUES (2, 1, 'not imported bottle of perfume', 18.99);
+INSERT INTO `Products` (`product_type`, `import_tax`, `description`, `price`) VALUES (1, 1, 'packet of headache pills', 9.75);
+INSERT INTO `Products` (`product_type`, `import_tax`, `description`, `price`) VALUES (1, 2, 'imported box of other chocolates', 11.25);
